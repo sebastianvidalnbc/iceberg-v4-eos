@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iceberg V4 · Preview</title>
-    <!-- Brand type only. The preview render is customer output, not CMS chrome,
-         so it loads just Inter (no Material Symbols / Eos component fonts). -->
+    <!-- Brand type only. The preview render is customer output, not CMS chrome.
+         Peacock ships "Peacock Sans TF" (proprietary); we load Figtree as the
+         closest free stand-in and fall back to it when the licensed face isn't
+         installed locally. Weights map to Peacock's Book (400) / Bold (700). -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/iceberg-v4-eos/assets/renderer-Xe2DCd2b.js"></script>
+    <script type="module" crossorigin src="/iceberg-v4-eos/assets/renderer-Bm8A6MEO.js"></script>
     <link rel="modulepreload" crossorigin href="/iceberg-v4-eos/assets/protocol-BfB25AW9.js">
-    <link rel="stylesheet" crossorigin href="/iceberg-v4-eos/assets/renderer-DsK6RVDv.css">
+    <link rel="stylesheet" crossorigin href="/iceberg-v4-eos/assets/renderer-Bk-Gw35w.css">
   </head>
   <body>
     <div id="preview-root"></div>
